@@ -1,6 +1,7 @@
 #### Some personal amendments...
 
-I've added `flow` as a development dependency to this project. To use it, just add `// @flow` to any file you want to type check, and then run `y flow`.
+I've added `flow` as a development dependency to this project. To use it, just add `// @flow` to any file you want to type check, and then 
+run `yarnpkg flow`. Pro-tip, I just alias `yarnpkg` to `y` :0
 
 ---
 (continued.)
