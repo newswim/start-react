@@ -4,6 +4,9 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// The main view, mostly just a parent for storing all of the other components
+// AND ALSO a store for the SPA's state. We shouldn't need anything Redux here.
+
 class App extends Component {
   render() {
     return (
