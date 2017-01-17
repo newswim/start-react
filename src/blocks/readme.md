@@ -1,7 +1,7 @@
 I'm calling the pieces of our long SPA '_blocks_', if for no particular reason
-than they don't seem to technically be 'views', since they take up sub-sections
-of a view -- just being that main `<App>` compononent in this case -- and do
-not really have standard properties like height. However, we can pass those
+than they don't seem to specifically be 'views', since they take up sub-sections
+of a view -- being just that main `<App>` component in this case -- and do
+not really have generic properties like uniform height. However, we can pass those
 down if it makes the most sense. In that case, architecture might look something
 like:
 
@@ -27,3 +27,7 @@ We could keep all of these properties in an array-like object, ex. `content`.
       }}
   </Block>
 ```
+
+Note: there should be no issue with making all of these view-only components
+'pure' or 'presentational' as opposed to stateful and class-based. They
+literally only take props and return html.
